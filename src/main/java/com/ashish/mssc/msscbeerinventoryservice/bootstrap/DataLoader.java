@@ -40,7 +40,7 @@ public class DataLoader implements CommandLineRunner {
                 .builder()
                 .id(id1)
                 .beerId(beerId1)
-                .quantityOnHand(50)
+                .quantityOnHand(50L)
                 .version(1L)
                 .upc("0631234200036")
                 .build();
@@ -49,7 +49,7 @@ public class DataLoader implements CommandLineRunner {
                 .builder()
                 .id(id2)
                 .beerId(beerId2)
-                .quantityOnHand(40)
+                .quantityOnHand(40L)
                 .version(1L)
                 .upc("0631234300019")
                 .build();
@@ -58,7 +58,7 @@ public class DataLoader implements CommandLineRunner {
                 .builder()
                 .id(id3)
                 .beerId(beerId3)
-                .quantityOnHand(60)
+                .quantityOnHand(60L)
                 .version(1L)
                 .upc("0083783375213")
                 .build();
