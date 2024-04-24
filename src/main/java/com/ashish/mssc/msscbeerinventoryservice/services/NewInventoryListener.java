@@ -27,6 +27,7 @@ public class NewInventoryListener {
                 .id(UUID.randomUUID())
                 .upc(newInventoryEvent.getBeerDto().getUpc())
                 .quantityOnHand(newInventoryEvent.getBeerDto().getQuantityToBrew())
+                .version(1L)
                 .build();
 
         beerInventoryRepository.save(beerInventory);
