@@ -1,6 +1,6 @@
 package com.ashish.mssc.msscbeerinventoryservice.services;
 
-import com.ashish.common.events.NewInventoryEvent;
+import com.ashish.common.model.events.NewInventoryEvent;
 import com.ashish.mssc.msscbeerinventoryservice.config.JMSConfig;
 import com.ashish.mssc.msscbeerinventoryservice.domain.BeerInventory;
 import com.ashish.mssc.msscbeerinventoryservice.repository.BeerInventoryRepository;
